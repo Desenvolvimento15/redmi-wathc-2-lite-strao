@@ -1,1 +1,1 @@
-# redmi-wathc-2-lite-strao
+# redmi-wathc-2-lite-strap
