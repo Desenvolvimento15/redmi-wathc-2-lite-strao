@@ -3,45 +3,13 @@
     margin: 0;
 }
 
-
-@font-face {
-    font-family: CamphorPro-Light;
-    src: url(./fonts/CamphorPro-Light.woff) format("woff")
-}
-
-@font-face {
-    font-family: CamphorPro-Regular;
-    src: url(./fonts/CamphorPro-Regular.woff) format("woff")
-}
-
-@font-face {
-    font-family: CamphorPro-Bold;
-    src: url(./fonts/CamphorPro-Bold.woff) format("woff")
-}
-
-@font-face {
-    font-family: CamphorPro-Thin;
-    src: url(./fonts/CamphorPro-Thin.woff) format("woff"), 
-    
-}
-
-@font-face {
-    font-family: Camphor-Heavy;
-    src: url(./fonts/CamphorPro-Heavy.woff) format("woff"), 
-   
-}
-
-@font-face {
-    font-family: CamphorPro-Medium;
-    src: url(./fonts/CamphorPro-Medium.woff) format("woff"), 
-    
-}
-
-@font-face {
-    font-family: ProximaNova;
-    src: url(./fonts/proxima-nova-regular.woff) format("woff"), 
-    
-}
+@font-face {font-family: CamphorPro-Light; src: url(./fonts/CamphorPro-Light.woff) format("woff")}
+@font-face { font-family: CamphorPro-Regular; src: url(./fonts/CamphorPro-Regular.woff) format("woff")}
+@font-face {font-family: CamphorPro-Bold; src: url(./fonts/CamphorPro-Bold.woff) format("woff")}
+@font-face { font-family: CamphorPro-Thin; src: url(./fonts/CamphorPro-Thin.woff) format("woff")}
+@font-face {font-family: Camphor-Heavy; src: url(./fonts/CamphorPro-Heavy.woff) format("woff")}
+@font-face { font-family: CamphorPro-Medium; src: url(./fonts/CamphorPro-Medium.woff) format("woff")}
+@font-face { font-family: ProximaNova; src: url(./fonts/proxima-nova-regular.woff) format("woff")}
 
 .f-heavy { font-family: Camphor-Heavy, sans-serif; font-weight: 900}
 .f-regular {font-family: CamphorPro-Regular, sans-serif}
