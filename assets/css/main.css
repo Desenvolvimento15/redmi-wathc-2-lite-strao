@@ -1,0 +1,927 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: CamphorPro-Light;
+    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Light.woff) format("woff")
+}
+
+@font-face {
+    font-family: CamphorPro-Regular;
+    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Regular.woff) format("woff")
+}
+
+@font-face {
+    font-family: CamphorPro-Bold;
+    font-weight: 700;
+    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Bold.woff) format("woff")
+}
+
+@font-face {
+    font-family: CamphorPro-Thin;
+    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Thin.woff) format("woff"), 
+    
+}
+
+@font-face {
+    font-family: Camphor-Heavy;
+    font-weight: 900;
+    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Heavy.woff) format("woff"), 
+    url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Heavy.svg#CamphorPro-Heavy) format("svg")
+}
+
+@font-face {
+    font-family: CamphorPro-Medium;
+    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Medium.woff) format("woff"), 
+    url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Medium.svg#CamphorPro-Medium) format("svg")
+}
+
+.f-heavy {
+    font-family: Camphor-Heavy, sans-serif;
+    font-weight: 900
+}
+
+.f-regular {
+    font-family: CamphorPro-Regular, sans-serif
+}
+
+.f-light {
+    font-family: CamphorPro-Light, sans-serif
+}
+
+.f-bold {
+    font-family: CamphorPro-Bold, sans-serif;
+    font-weight: 700
+}
+
+.f-medium {
+    font-family: CamphorPro-Medium, sans-serif
+}
+
+.f-thin {
+    font-family: CamphorPro-Thin, sans-serif
+}
+
+.f-nova {
+    font-family: ProximaNova, sans-serif
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.redmi-watch-2-lite-strap-overview {
+    background: #fff;
+    width: 100%
+}
+
+.redmi-watch-2-lite-strap-overview .xm-price,
+.redmi-watch-2-lite-strap-overview .xm-text,
+.redmi-watch-2-lite-strap-overview .xm-visible {
+    opacity: 0;
+    transform: translateY(2vh)
+}
+
+.redmi-watch-2-lite-strap-overview .is-visible .xm-price,
+.redmi-watch-2-lite-strap-overview .is-visible .xm-text,
+.redmi-watch-2-lite-strap-overview .is-visible .xm-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s linear
+}
+
+.redmi-watch-2-lite-strap-overview .f12 {
+    font-size: .046875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f14 {
+    font-size: .054688rem
+}
+
+.redmi-watch-2-lite-strap-overview .f16 {
+    font-size: .0625rem
+}
+
+.redmi-watch-2-lite-strap-overview .f18 {
+    font-size: .070313rem
+}
+
+.redmi-watch-2-lite-strap-overview .f20 {
+    font-size: .078125rem
+}
+
+.redmi-watch-2-lite-strap-overview .f22 {
+    font-size: .085938rem
+}
+
+.redmi-watch-2-lite-strap-overview .f24 {
+    font-size: .09375rem
+}
+
+.redmi-watch-2-lite-strap-overview .f26 {
+    font-size: .101563rem
+}
+
+.redmi-watch-2-lite-strap-overview .f28 {
+    font-size: .109375rem
+}
+
+.redmi-watch-2-lite-strap-overview .f30 {
+    font-size: .117188rem
+}
+
+.redmi-watch-2-lite-strap-overview .f32 {
+    font-size: .125rem
+}
+
+.redmi-watch-2-lite-strap-overview .f34 {
+    font-size: .132813rem
+}
+
+.redmi-watch-2-lite-strap-overview .f36 {
+    font-size: .140625rem
+}
+
+.redmi-watch-2-lite-strap-overview .f38 {
+    font-size: .148438rem
+}
+
+.redmi-watch-2-lite-strap-overview .f40 {
+    font-size: .15625rem
+}
+
+.redmi-watch-2-lite-strap-overview .f42 {
+    font-size: .164063rem
+}
+
+.redmi-watch-2-lite-strap-overview .f44 {
+    font-size: .171875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f46 {
+    font-size: .179688rem
+}
+
+.redmi-watch-2-lite-strap-overview .f48 {
+    font-size: .1875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f50 {
+    font-size: .195313rem
+}
+
+.redmi-watch-2-lite-strap-overview .f52 {
+    font-size: .203125rem
+}
+
+.redmi-watch-2-lite-strap-overview .f54 {
+    font-size: .210938rem
+}
+
+.redmi-watch-2-lite-strap-overview .f56 {
+    font-size: .21875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f58 {
+    font-size: .226563rem
+}
+
+.redmi-watch-2-lite-strap-overview .f60 {
+    font-size: .234375rem
+}
+
+.redmi-watch-2-lite-strap-overview .f64 {
+    font-size: .25rem
+}
+
+.redmi-watch-2-lite-strap-overview .f66 {
+    font-size: .257813rem
+}
+
+.redmi-watch-2-lite-strap-overview .f68 {
+    font-size: .265625rem
+}
+
+.redmi-watch-2-lite-strap-overview .f70 {
+    font-size: .273438rem
+}
+
+.redmi-watch-2-lite-strap-overview .f72 {
+    font-size: .28125rem
+}
+
+.redmi-watch-2-lite-strap-overview .f74 {
+    font-size: .289063rem
+}
+
+.redmi-watch-2-lite-strap-overview .f76 {
+    font-size: .296875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f78 {
+    font-size: .304688rem
+}
+
+.redmi-watch-2-lite-strap-overview .f80 {
+    font-size: .3125rem
+}
+
+.redmi-watch-2-lite-strap-overview .f82 {
+    font-size: .320313rem
+}
+
+.redmi-watch-2-lite-strap-overview .f86 {
+    font-size: .335938rem
+}
+
+.redmi-watch-2-lite-strap-overview .f88 {
+    font-size: .34375rem
+}
+
+.redmi-watch-2-lite-strap-overview .f90 {
+    font-size: .351563rem
+}
+
+.redmi-watch-2-lite-strap-overview .f92 {
+    font-size: .359375rem
+}
+
+.redmi-watch-2-lite-strap-overview .f98 {
+    font-size: .382813rem
+}
+
+.redmi-watch-2-lite-strap-overview .f100 {
+    font-size: .390625rem
+}
+
+.redmi-watch-2-lite-strap-overview .f106 {
+    font-size: .414063rem
+}
+
+.redmi-watch-2-lite-strap-overview .f108 {
+    font-size: .421875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f110 {
+    font-size: .429688rem
+}
+
+.redmi-watch-2-lite-strap-overview .f114 {
+    font-size: .445313rem
+}
+
+.redmi-watch-2-lite-strap-overview .f116 {
+    font-size: .453125rem
+}
+
+.redmi-watch-2-lite-strap-overview .f120 {
+    font-size: .46875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f128 {
+    font-size: .5rem
+}
+
+.redmi-watch-2-lite-strap-overview .f130 {
+    font-size: .507813rem
+}
+
+.redmi-watch-2-lite-strap-overview .f138 {
+    font-size: .539063rem
+}
+
+.redmi-watch-2-lite-strap-overview .f140 {
+    font-size: .546875rem
+}
+
+.redmi-watch-2-lite-strap-overview .f146 {
+    font-size: .570313rem
+}
+
+.redmi-watch-2-lite-strap-overview .f148 {
+    font-size: .578125rem
+}
+
+.redmi-watch-2-lite-strap-overview .f150 {
+    font-size: .585938rem
+}
+
+.redmi-watch-2-lite-strap-overview .f160 {
+    font-size: .625rem
+}
+
+.redmi-watch-2-lite-strap-overview .f200 {
+    font-size: .78125rem
+}
+
+.redmi-watch-2-lite-strap-overview .section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    position: relative
+}
+
+.hairlines .redmi-watch-2-lite-strap-overview .section {
+    margin-bottom: -.5px
+}
+
+.redmi-watch-2-lite-strap-overview .section .f-heavy {
+    font-weight: 700
+}
+
+.redmi-watch-2-lite-strap-overview .section .black {
+    color: #000
+}
+
+.redmi-watch-2-lite-strap-overview .section .white {
+    color: #fff
+}
+
+.redmi-watch-2-lite-strap-overview .section01 {
+    height: 4.296875rem
+}
+
+.redmi-watch-2-lite-strap-overview .section01 .text-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.289063rem 0 0 1.796875rem;
+    text-align: left;
+    width: 3.75rem
+}
+
+.redmi-watch-2-lite-strap-overview .section01 .logo {
+    height: .226563rem;
+    width: .78125rem
+}
+
+.redmi-watch-2-lite-strap-overview .section01 .text {
+    display: flex;
+    justify-content: flex-start
+}
+
+.redmi-watch-2-lite-strap-overview .section01 .f72 {
+    line-height: 1.2;
+ 
+}
+
+.redmi-watch-2-lite-strap-overview .section01 .frist {
+    margin-top: .15625rem
+}
+
+.redmi-watch-2-lite-strap-overview .section01 .f40 {
+    line-height: 1.4
+}
+
+.redmi-watch-2-lite-strap-overview .section02 {
+    background: #fff
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: .664063rem;
+    text-align: center;
+    width: 4.84375rem
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .f72 {
+    line-height: 1.2
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .f24 {
+    line-height: 1.3
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .desc {
+    color: #666;
+    margin-top: .140625rem
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .img {
+    display: block;
+    height: 2.578125rem;
+    margin: .546875rem auto 0;
+    width: 5.273438rem
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .f34 {
+    color: #888;
+    line-height: 1.1;
+    position: absolute;
+    text-align: center;
+    width: 1.671875rem
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .first {
+    left: 2.257813rem;
+    top: 4.859375rem
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .sec {
+    left: 4.117188rem;
+    top: 4.859375rem
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .thir {
+    left: 5.960938rem;
+    top: 4.859375rem
+}
+
+.redmi-watch-2-lite-strap-overview .section02 .tips {
+    color: #999;
+    display: block;
+    line-height: 1.1;
+    margin: .859375rem auto 0;
+    padding: 0 0 .585938rem;
+    text-align: center;
+    width: 5.273438rem
+}
+
+.redmi-watch-2-lite-strap-overview .section03 {
+    background: #f9ebe0
+}
+
+.redmi-watch-2-lite-strap-overview .section03 .text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: .664063rem;
+    text-align: center;
+    width: 4.84375rem
+}
+
+.redmi-watch-2-lite-strap-overview .section03 .f72 {
+    line-height: 1.2
+}
+
+.redmi-watch-2-lite-strap-overview .section03 .f24 {
+    line-height: 1.3
+}
+
+.redmi-watch-2-lite-strap-overview .section03 .desc {
+    color: #666;
+    margin-top: .140625rem
+}
+
+.redmi-watch-2-lite-strap-overview .section03 .img {
+    display: block;
+    height: 3.289063rem;
+    margin: .546875rem auto 0;
+    padding-bottom: .625rem;
+    width: 5.46875rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 {
+    background: #fff
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: .664063rem;
+    text-align: center;
+    width: 5.703125rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .f72 {
+    line-height: 1.2
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .f24 {
+    color: #999;
+    line-height: 1.6
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .desc {
+    color: #666;
+    margin-top: .140625rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .img {
+    display: block;
+    height: 1.328125rem;
+    margin: .546875rem auto 0;
+    width: 3.984375rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .item {
+    display: flex;
+    flex-direction: column;
+    margin: .507813rem auto 0;
+    text-align: left;
+    width: 4.921875rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .mt24 {
+    margin-top: .09375rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .mt4 {
+    margin-top: .015625rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .mt36 {
+    margin-top: .140625rem
+}
+
+.redmi-watch-2-lite-strap-overview .section04 .sec {
+    padding-bottom: .625rem
+}
+
+.redmi-watch-2-lite-strap {
+    background-color: #f1f1f1;
+    width: 100%
+}
+
+.redmi-watch-2-lite-strap .f12 {
+    font-size: 12px
+}
+
+.redmi-watch-2-lite-strap .f14 {
+    font-size: 14px
+}
+
+.redmi-watch-2-lite-strap .f16 {
+    font-size: 16px
+}
+
+.redmi-watch-2-lite-strap .f18 {
+    font-size: 18px
+}
+
+.redmi-watch-2-lite-strap .f20 {
+    font-size: 20px
+}
+
+.redmi-watch-2-lite-strap .f22 {
+    font-size: 22px
+}
+
+.redmi-watch-2-lite-strap .f24 {
+    font-size: 24px
+}
+
+.redmi-watch-2-lite-strap .f26 {
+    font-size: 26px
+}
+
+.redmi-watch-2-lite-strap .f28 {
+    font-size: 28px
+}
+
+.redmi-watch-2-lite-strap .f30 {
+    font-size: 30px
+}
+
+.redmi-watch-2-lite-strap .f32 {
+    font-size: 32px
+}
+
+.redmi-watch-2-lite-strap .f34 {
+    font-size: 34px
+}
+
+.redmi-watch-2-lite-strap .f36 {
+    font-size: 36px
+}
+
+.redmi-watch-2-lite-strap .f38 {
+    font-size: 38px
+}
+
+.redmi-watch-2-lite-strap .f40 {
+    font-size: 40px
+}
+
+.redmi-watch-2-lite-strap .f42 {
+    font-size: 42px
+}
+
+.redmi-watch-2-lite-strap .f44 {
+    font-size: 44px
+}
+
+.redmi-watch-2-lite-strap .f46 {
+    font-size: 46px
+}
+
+.redmi-watch-2-lite-strap .f48 {
+    font-size: 48px
+}
+
+.redmi-watch-2-lite-strap .f50 {
+    font-size: 50px
+}
+
+.redmi-watch-2-lite-strap .f52 {
+    font-size: 52px
+}
+
+.redmi-watch-2-lite-strap .f54 {
+    font-size: 54px
+}
+
+.redmi-watch-2-lite-strap .f56 {
+    font-size: 56px
+}
+
+.redmi-watch-2-lite-strap .f58 {
+    font-size: 58px
+}
+
+.redmi-watch-2-lite-strap .f60 {
+    font-size: 60px
+}
+
+.redmi-watch-2-lite-strap .f64 {
+    font-size: 64px
+}
+
+.redmi-watch-2-lite-strap .f66 {
+    font-size: 66px
+}
+
+.redmi-watch-2-lite-strap .f68 {
+    font-size: 68px
+}
+
+.redmi-watch-2-lite-strap .f70 {
+    font-size: 70px
+}
+
+.redmi-watch-2-lite-strap .f72 {
+    font-size: 72px
+}
+
+.redmi-watch-2-lite-strap .f74 {
+    font-size: 74px
+}
+
+.redmi-watch-2-lite-strap .f76 {
+    font-size: 76px
+}
+
+.redmi-watch-2-lite-strap .f78 {
+    font-size: 78px
+}
+
+.redmi-watch-2-lite-strap .f80 {
+    font-size: 80px
+}
+
+.redmi-watch-2-lite-strap .f82 {
+    font-size: 82px
+}
+
+.redmi-watch-2-lite-strap .f86 {
+    font-size: 86px
+}
+
+.redmi-watch-2-lite-strap .f88 {
+    font-size: 88px
+}
+
+.redmi-watch-2-lite-strap .f90 {
+    font-size: 90px
+}
+
+.redmi-watch-2-lite-strap .f92 {
+    font-size: 92px
+}
+
+.redmi-watch-2-lite-strap .f98 {
+    font-size: 98px
+}
+
+.redmi-watch-2-lite-strap .f100 {
+    font-size: 100px
+}
+
+.redmi-watch-2-lite-strap .f106 {
+    font-size: 106px
+}
+
+.redmi-watch-2-lite-strap .f108 {
+    font-size: 108px
+}
+
+.redmi-watch-2-lite-strap .f110 {
+    font-size: 110px
+}
+
+.redmi-watch-2-lite-strap .f114 {
+    font-size: 114px
+}
+
+.redmi-watch-2-lite-strap .f116 {
+    font-size: 116px
+}
+
+.redmi-watch-2-lite-strap .f120 {
+    font-size: 120px
+}
+
+.redmi-watch-2-lite-strap .f128 {
+    font-size: 128px
+}
+
+.redmi-watch-2-lite-strap .f130 {
+    font-size: 130px
+}
+
+.redmi-watch-2-lite-strap .f138 {
+    font-size: 138px
+}
+
+.redmi-watch-2-lite-strap .f140 {
+    font-size: 140px
+}
+
+.redmi-watch-2-lite-strap .f146 {
+    font-size: 146px
+}
+
+.redmi-watch-2-lite-strap .f148 {
+    font-size: 148px
+}
+
+.redmi-watch-2-lite-strap .f150 {
+    font-size: 150px
+}
+
+.redmi-watch-2-lite-strap .f160 {
+    font-size: 160px
+}
+
+.redmi-watch-2-lite-strap .f200 {
+    font-size: 200px
+}
+
+.redmi-watch-2-lite-strap .section {
+    background-size: contain;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    width: 1226px
+}
+
+.redmi-watch-2-lite-strap .section:last-child {
+    border: 0
+}
+
+.redmi-watch-2-lite-strap .black {
+    color: #000
+}
+
+.redmi-watch-2-lite-strap .text {
+    display: flex;
+    justify-content: space-between
+}
+
+.redmi-watch-2-lite-strap .f-bold {
+    line-height: 36px
+}
+
+.redmi-watch-2-lite-strap .width400 {
+    line-height: 26px;
+    width: 400px
+}
+
+.redmi-watch-2-lite-strap .width740 {
+    color: #7f7f7f;
+    line-height: 26px;
+    width: 740px
+}
+
+.redmi-watch-2-lite-strap .first {
+    border-bottom: 1px solid #c1c1c1;
+    padding: 10px 0
+}
+
+.redmi-watch-2-lite-strap .item {
+    border-bottom: 1px solid #c1c1c1;
+    padding: 30px 0
+}
+
+.redmi-watch-2-lite-strap .bodernone {
+    border: none;
+    padding-bottom: 160px
+}
+
+.redmi-watch-2-lite-strap .specs01 {
+    margin-top: 90px;
+    padding: 90px 0;
+    text-align: center
+}
+
+.redmi-watch-2-lite-strap .item-container {
+    display: flex
+}
+
+.redmi-watch-2-lite-strap .item-container .item {
+    display: flex;
+    flex: 0 0 33%;
+    flex-direction: column
+}
+
+.redmi-watch-2-lite-strap .specs02 {
+    padding-top: 90px
+}
+
+.redmi-watch-2-lite-strap .specs03 {
+    margin-top: 50px
+}
+
+.redmi-watch-2-lite-strap .specs03 .text {
+    color: #7f7f7f
+}
+
+.redmi-watch-2-lite-strap .specs03 .item:nth-of-type(n+2) {
+    border: none;
+    padding: 30px 0 0
+}
+
+.redmi-watch-2-lite-strap .specs03 .item:nth-of-type(4) {
+    padding-bottom: 160px
+}
+
+.xm-page-area_mobile {
+    overflow-x: hidden;
+    padding-bottom: 4.166667rem
+}
+
+.xm-page-area_mobile.review-tab {
+    height: 3.125rem
+}
+
+.xm-page-area_mobile .drag-tip {
+    color: #ddd;
+    font-size: .875rem;
+    height: 0;
+    margin: .75rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+
+.xm-page-area_mobile .drag-tip:before {
+    content: "\e7be";
+    display: inline-block;
+    font-size: .833333rem;
+    padding: 0 .208333rem;
+    transition: .3s
+}
+
+.xm-page-area_mobile .drag-tip.to-release:before {
+    padding-right: unset;
+    transform: rotate(180deg)
+}
+
+.header--desktop .site-logo,
+.site-header .site-logo {
+    background: var(--background-primary);
+    flex-basis: 106px;
+    height: 60px;
+    width: 106px
+}
+
+.header--desktop .site-logo .site-logo__wrapper img,
+.site-header .site-logo .site-logo__wrapper img {
+    transform: none;
+    transition: none
+}
+
+.entry {
+    border-top: 1px solid var(--border-primary);
+    height: 60px
+}
+
+.entry__wrap {
+    display: flex
+}
+
+.entry__left {
+    height: 100%;
+    margin: 0 60px
+}
+
+.entry__item {
+    height: 60px !important;
+    line-height: 60px !important
+}
+
+.entry__dropdown-list {
+    top: 60px
+}
+
+.entry__logo img {
+    display: block
+}
