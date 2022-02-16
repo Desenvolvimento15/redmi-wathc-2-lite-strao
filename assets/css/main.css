@@ -6,68 +6,50 @@
 
 @font-face {
     font-family: CamphorPro-Light;
-    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Light.woff) format("woff")
+    src: url(./fonts/CamphorPro-Light.woff) format("woff")
 }
 
 @font-face {
     font-family: CamphorPro-Regular;
-    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Regular.woff) format("woff")
+    src: url(./fonts/CamphorPro-Regular.woff) format("woff")
 }
 
 @font-face {
     font-family: CamphorPro-Bold;
-    font-weight: 700;
-    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Bold.woff) format("woff")
+    src: url(./fonts/CamphorPro-Bold.woff) format("woff")
 }
 
 @font-face {
     font-family: CamphorPro-Thin;
-    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Thin.woff) format("woff"), 
+    src: url(./fonts/CamphorPro-Thin.woff) format("woff"), 
     
 }
 
 @font-face {
     font-family: Camphor-Heavy;
-    font-weight: 900;
-    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Heavy.woff) format("woff"), 
-    url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Heavy.svg#CamphorPro-Heavy) format("svg")
+    src: url(./fonts/CamphorPro-Heavy.woff) format("woff"), 
+   
 }
 
 @font-face {
     font-family: CamphorPro-Medium;
-    src: url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Medium.woff) format("woff"), 
-    url(//i01.appmifile.com/webfile/globalimg/products/pc/mi-note-10/CamphorPro-Medium.svg#CamphorPro-Medium) format("svg")
+    src: url(./fonts/CamphorPro-Medium.woff) format("woff"), 
+    
 }
 
-.f-heavy {
-    font-family: Camphor-Heavy, sans-serif;
-    font-weight: 900
+@font-face {
+    font-family: ProximaNova;
+    src: url(./fonts/proxima-nova-regular.woff) format("woff"), 
+    
 }
 
-.f-regular {
-    font-family: CamphorPro-Regular, sans-serif
-}
-
-.f-light {
-    font-family: CamphorPro-Light, sans-serif
-}
-
-.f-bold {
-    font-family: CamphorPro-Bold, sans-serif;
-    font-weight: 700
-}
-
-.f-medium {
-    font-family: CamphorPro-Medium, sans-serif
-}
-
-.f-thin {
-    font-family: CamphorPro-Thin, sans-serif
-}
-
-.f-nova {
-    font-family: ProximaNova, sans-serif
-}
+.f-heavy { font-family: Camphor-Heavy, sans-serif; font-weight: 900}
+.f-regular {font-family: CamphorPro-Regular, sans-serif}
+.f-light { font-family: CamphorPro-Light, sans-serif}
+.f-bold {font-family: CamphorPro-Bold, sans-serif; font-weight: 700}
+.f-medium {font-family: CamphorPro-Medium, sans-serif}
+.f-thin {font-family: CamphorPro-Thin, sans-serif}
+.f-nova {font-family: ProximaNova, sans-serif}
 
 /*-------------------------------------------------------------------------------------*/
 
